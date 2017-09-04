@@ -1,0 +1,38 @@
+body {
+    background-color: #a0979d
+}
+
+.keys{
+    
+    display: flex;
+    position: relative;
+}
+
+.key{
+
+    border: 3px solid #e589da;
+    border-radius: 5px;
+    margin: 4px;
+    width:90px;
+    height: 90px;
+    padding: 5px;
+    transition: all .1s ease;
+}
+
+.lower{
+
+    padding-left: 30px;
+}
+
+.sound{
+    position: absolute;
+    color: #d4e3fc;
+    margin-top: 70px;
+    
+}
+
+.playing{
+    transform: scale(1.1);
+    border-color: #ed40ad;
+    
+}
